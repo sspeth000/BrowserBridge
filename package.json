@@ -1,0 +1,15 @@
+{
+  "name": "browserbridge",
+  "version": "0.2.0",
+  "private": true,
+  "description": "A small authenticated WebSocket relay for an explicitly connected browser tab.",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.18.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
